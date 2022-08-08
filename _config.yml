@@ -1,7 +1,7 @@
 title: "PiiDOmx"
 #email: wowthemesnet@gmail.com
 timezone: UTC
-baseurl: "/PiiDO"
+baseurl: "/PiiDO-Monterrey"
 permalink: "/:title/"
 logo: 'assets/images/ii/Logo-200x75.png'
 favicon: 'assets/images/ii/favicon.ico'
@@ -37,7 +37,7 @@ authors:
 
 # Social
 social:
-  twitter: https://twitter.com/_justHector
+  twitter: https://twitter.com/contactocreatip
   instagram: https://www.instagram.com/creaTIPSoluciones/
   facebook: https://www.facebook.com/creaTipSolucionesSH/
 
