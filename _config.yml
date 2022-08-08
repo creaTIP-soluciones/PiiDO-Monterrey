@@ -1,0 +1,50 @@
+title: "PiiDOmx"
+#email: wowthemesnet@gmail.com
+timezone: UTC
+baseurl: "/PiiDO"
+permalink: "/:title/"
+logo: 'assets/images/ii/Logo-200x75.png'
+favicon: 'assets/images/ii/favicon.ico'
+author: TIP
+paginate: 7
+#disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+#ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  tip:
+    name: creaTIP
+    display_name: TIP
+    avatar: 'assets/images/ii/TIP_200 x158.png'
+    #email: 
+    web: http://www.piido.mx/
+    #twitter: 
+    description: "Tu negocio también puede estar publicado en ésta página."
+
+
+
+# Social
+social:
+  twitter: https://twitter.com/_justHector
+  instagram: https://www.instagram.com/creaTIPSoluciones/
+  facebook: https://www.facebook.com/creaTipSolucionesSH/
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
