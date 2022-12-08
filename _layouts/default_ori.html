@@ -18,19 +18,15 @@
 {% if jekyll.environment == "production" %}       
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.ganalytics}}"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '{{ site.google_analytics }}');
+gtag('config', '{{site.ganalytics}}');
 </script>
 {% endif %}
-
-<!-- google_adsense.html -->    
-    
-<!-- google_adsense.html end-->
-    
+   
 </head>   
     
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -114,7 +110,9 @@ gtag('config', '{{ site.google_analytics }}');
 <main class="container">   
       {{ content }}  
     
-      {% include ad-multiplex-ii.html %}
+      {% include google_adsense.html %}
+    
+      {% include google_analytics.html %}
 </main>
 
 <!-- Footer
@@ -124,9 +122,9 @@ gtag('config', '{{ site.google_analytics }}');
   <!-- CREDITS BEGIN.-->
   <!-- If you want to support my work, please donate to remove the credits. This helps me keep it up and running: https://www.wowthemes.net/donate/ -->
   <div class="credits mx-auto text-center mb-3">
-    <!-- <a class="hover-opacity font-weight-bold" href="https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/"> -->
+    <a class="hover-opacity font-weight-bold" href="https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/">
       <img src="{{site.baseurl}}/assets/images/credits.png" alt="powered by WowThemes">
-    <!-- </a> -->
+    </a>
   </div>
   <!-- CREDITS END -->
 

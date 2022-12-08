@@ -17,11 +17,13 @@ layout: default
 
   <div class="article-post serif-font">
     {{content}}
+      
+    {% include ad-in-feed-ii.html %}
   </div>
 
   {% if page.comments == true %}
-  <div id="comments">             
-      {% include disqus.html %} 
+  <div id="comments">
+      <!-- {% include disqus.html %} -->
   </div>
   {% endif %}
 

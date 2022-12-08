@@ -28,7 +28,6 @@ creaTIP Soluciones ; Estamos en [Facebook][FB]
 <br />
 
 
-
 [FB]: https://www.facebook.com/creaTipSolucionesSH/
 
 [Tel1]: tel:+528241005820
@@ -37,13 +36,20 @@ creaTIP Soluciones ; Estamos en [Facebook][FB]
 [WA2]: https://wa.me/528241005820?text=Hola,%20conozco%20éste%20negocio
 
 
-
 <!-- ===== 2da IMAGEN ===== --> 
 <center>
     <img src="{{ site.baseurl }}/assets/images/ii/un-concepto-de.png" alt="Anunciate-en-PiiDO" style="height: 300px;"/>
 </center>
 
 <br />
+<br />
+
+{% include ad-in-article-ii.html %}
+
+{% include area_de_pruebas.md %}
+
+<br />
+
 
 <!-- Disclaimer & palabras clave
 ================================================== -->

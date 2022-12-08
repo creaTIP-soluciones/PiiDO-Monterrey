@@ -13,10 +13,10 @@ topmenu:
 #- title: Contact
 #  url: "contact/"
 
-- title: SabinasHidalgo.NL
-  url: https://sabinashidalgo.nl/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
+- #title: SabinasHidalgo.NL
+  #url: https://sabinashidalgo.nl/
+  #class: "ml-2 btn btn-dark text-white px-3"
+  #external: true
 
 #- title: Get this theme  
 #  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
@@ -41,10 +41,10 @@ footermenu:
 - title: Privacy Policy
   url: "privacy-policy/"
   
-- title: Conoce SabinasHidalgo.NL
-  url: https://sabinashidalgo.nl/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
+- #title: Conoce SabinasHidalgo.NL
+  #url: https://sabinashidalgo.nl/
+  #class: "ml-2 btn btn-dark text-white px-3"
+  #external: true
 
 #- title: Download
 #  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  

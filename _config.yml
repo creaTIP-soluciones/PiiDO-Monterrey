@@ -22,6 +22,12 @@ sass:
   style: :compressed
 #ganalytics: UA-113961478-1
 
+# Google Analytics
+google_analytics: G-0GXJPN2N9Q
+
+# Google Adsense
+#google_adsense: ((directamente en google_adsense.html))
+
 # Authors
 authors:
   tip:
